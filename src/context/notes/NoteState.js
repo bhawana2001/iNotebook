@@ -31,7 +31,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "616f848ceade5f192667ea89",
+            "_id": "616f848ceade5f192667ea8rf9",
             "user": "616e4495aa7d6297aaf40b01",
             "title": "My title",
             "description": "Please wake up early",
@@ -40,7 +40,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "616f848ceade5f192667ea89",
+            "_id": "616f848ceade5f192667era89",
             "user": "616e4495aa7d6297aaf40b01",
             "title": "My title",
             "description": "Please wake up early",
@@ -49,7 +49,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "616f848ceade5f192667ea89",
+            "_id": "616f848ceade5f19e2667ea89",
             "user": "616e4495aa7d6297aaf40b01",
             "title": "My title",
             "description": "Please wake up early",
@@ -58,7 +58,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "616f848ceade5f192667ea89",
+            "_id": "616f848ceade45f192667ea89",
             "user": "616e4495aa7d6297aaf40b01",
             "title": "My title",
             "description": "Please wake up early",
@@ -67,7 +67,7 @@ const NoteState = (props) => {
             "__v": 0
         },
         {
-            "_id": "616f848ceade5f192667ea89",
+            "_id": "616f848ceadet5f192667ea89",
             "user": "616e4495aa7d6297aaf40b01",
             "title": "My title",
             "description": "Please wake up early",
@@ -78,7 +78,7 @@ const NoteState = (props) => {
     ]
     const [notes, setNotes] = useState(notesInitial)
     return (
-        <NoteContext.Provider value={{notes,setNotes}}>
+        <NoteContext.Provider value={{ notes, setNotes }}>
             {props.children}
         </NoteContext.Provider>
     )
